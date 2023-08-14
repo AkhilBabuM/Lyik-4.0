@@ -104,7 +104,6 @@ a {
     display: grid;
     align-content: center;
     text-align: center;
-    width: 80px;
     height: 80px;
     color: var(--bs-info);
     font-size: 34px;
