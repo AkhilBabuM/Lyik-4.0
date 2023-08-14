@@ -7136,6 +7136,11 @@ textarea.form-control-lg {
   box-shadow: 5px 5px 10px rgba(55, 94, 148, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.4) !important;
 }
 
+.tiltshadow {
+  box-shadow: 5px 5px 10px rgba(55, 94, 148, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.4) !important;
+  transform: rotate(-3deg) !important;
+}
+
 .shadow-sm {
   box-shadow: 0 0.125rem 0.25rem rgba(55, 94, 148, 0.2) !important;
 }
