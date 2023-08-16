@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg py-4 fixed-top navbar-light bg-body">
@@ -23,12 +23,12 @@
           <div class="collapse navbar-collapse" id="navbarColor03">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="#hero">Home</a>
+                <a class="nav-link" href="#hero">Home</a>
               </li>
               <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS</a>
                   <div class="dropdown-menu">
-                      <a class="dropdown-item" href="Products/lyik_privacy/index.html"><span class="lyik">Lyik.</span>Privacy</a>
+                      <a class="dropdown-item" href="#"><span class="lyik">Lyik.</span>Privacy</a>
                       <a class="dropdown-item" href="#"><span class="lyik">Lyik.</span>Enterprise</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#"><span class="lyik">Lyik.</span>Credentials</a>
@@ -240,7 +240,7 @@
                 <div class="col-lg-6 py-4 shadow rounded-5 tiltshadowright" data-aos="fade-up" data-aos-delay="200">
                     <div class="intro-section p-5 tiltreduceright" data-aos="fade-up" data-aos-delay="300" >
                         <h1 class="fw-bold headtitle"><span class="lyik">LYIK.</span>Forms</h1>
-                        <h3 class="mx-auto">Make manual form filling a thing of the past</h3>
+                        <h3 class="mx-auto">Never fill a form manually ever again</h3>
                         <p class="section-description">Our pioneering Technology helps you fill forms instantly just by scanning a QR code. We empower users regardless of age or technical expertise to fill forms in a flash without any help or guidance.</p>
                     </div>
                     <div class="row align-items-center pb-5 px-5 m-auto tiltreduceright" data-aos="fade-up" data-aos-delay="300" >
@@ -342,7 +342,7 @@
         <div class="container w-100">
             <div class="row justify-content-center">
 
-                <div class="col-lg-6">
+                <div class="col-lg-3">
                     <div class="row gy-4">
                         <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                             <div class="text-center mb-5 tiltshadowleft rounded-5 align-items-center p-4"  style="width:180px; height:170px;">
@@ -395,7 +395,46 @@
                     </div>
                 </div>
 
-                
+                <div class="col-lg-3">
+                    <div class="row gy-4">
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="text-center mb-5 tiltshadowleft rounded-5 align-items-center p-4"  style="width:180px; height:170px;">
+                                <div class="icon rounded-4 tiltreduceleft"> <img style="height:50px;" src="assets/images/icons/lyik-store-govt.png" alt="">                                         </div>
+                                <div class="text-center tiltreduceleft" style="margin-top: 20px;">Government IDs</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="text-center mb-5 tiltshadowright rounded-5 align-items-center p-4"  style="width:180px; height:170px;">
+                                <div class="icon rounded-4 tiltreduceright"> <img style="height:50px;" src="assets/images/icons/lyik-store-education.png" alt="">                                         </div>
+                                <div class="text-center tiltreduceright" style="margin-top: 20px;">Educational Certificates</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="text-center mb-5 tiltshadowleft rounded-5 align-items-center p-4"  style="width:180px; height:170px;">
+                                <div class="icon rounded-4 tiltreduceleft"> <img style="height:50px;" src="assets/images/icons/lyik-store-passwords.png" alt="">                                         </div>
+                                <div class="text-center tiltreduceleft" style="margin-top: 20px;">Passwords</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="text-center mb-5 tiltshadowright rounded-5 align-items-center p-4"  style="width:180px; height:170px;">
+                                <div class="icon rounded-4 tiltreduceright"> <img style="height:50px;" src="assets/images/icons/lyik-store-insurance.png" alt="">                                         </div>
+                                <div class="text-center tiltreduceright" style="margin-top: 20px;">Insurances</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="text-center mb-5 tiltshadowleft rounded-5 align-items-center p-4"  style="width:180px; height:170px;">
+                                <div class="icon rounded-4 tiltreduceleft"> <img style="height:50px;" src="assets/images/icons/lyik-store-vehicles.png" alt="">                                         </div>
+                                <div class="text-center tiltreduceleft" style="margin-top: 20px;">Vehicles</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                            <div class="text-center mb-5 shadow rounded-5 align-items-center p-4"  style="width:180px; height:170px;">
+                                <div class="icon rounded-4"> <img style="height:50px;" src="assets/images/icons/lyik-store-govt.png" alt="">                                         </div>
+                                <div class="text-center" style="margin-top: 20px;">For Consumers</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!-- <div class="col-lg-3">
                     <div class="intro-section text-center" data-aos="fade-up">
                         <img class=" phone" src="assets/images/screenshots/Form_filling.png" alt="">

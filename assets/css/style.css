@@ -40,6 +40,10 @@ body {
     font-weight: 600;
 }
 
+nav a {
+    text-decoration: none !important;
+}
+
 .tiltreduceleft{
     transform: rotate(3deg) !important;
 }
